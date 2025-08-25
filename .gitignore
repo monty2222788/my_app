@@ -5,3 +5,33 @@
 tags
 node_modules
 __pycache__
+# بيئة Frappe
+*.pyc
+__pycache__/
+*.swp
+*.swo
+
+# قاعدة البيانات
+*.db
+*.sqlite
+*.mdb
+
+# الملفات المؤقتة
+*.tmp
+*.temp
+
+# السجلات
+*.log
+logs/
+
+# الملفات الشخصية
+.env
+.local-config.json
+
+# مجلدات التثبيت
+node_modules/
+yarn-error.log
+
+# مجلدات البناء
+dist/
+build/
