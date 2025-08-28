@@ -1,8 +1,7 @@
 [
-  {"dt": "DocType", "filters": {"name": ["in", ["reportat_contract_data", "Reportat_tasks", "reportat_cover", "reportat_one_task"]]}},
-  {"dt": "Report", "filters": {"name": ["in", ["reportat_contract_data", "Reportat_tasks", "reportat_cover", "reportat_one_task"]]}},
-  {"dt": "Print Format", "filters": {"name": ["in", ["Print Heading", "Management", "employees", "Asset Repair", "Advance Payment Ledger Entry", "Material Request", "Material Request", "Sales Order"]]}}
-
-
+  {"dt": "Custom Field"},
+  {"dt": "Property Setter"},
+  {"dt": "Custom Script"},
+  {"dt": "Report"},
+  {"dt": "Print Format"}
 ]
-
