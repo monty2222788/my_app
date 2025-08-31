@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-11 12:36:58.781026",
+ "custom": 1,
+ "default_print_format": "\u0637\u0628\u0627\u0639\u0629 \u062c\u062f\u064a\u062f",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "entity",
+  "management",
+  "contractor",
+  "report_name",
+  "contract",
+  "report_no_invoice",
+  "report_date",
+  "responsible_engineer",
+  "job_title",
+  "report_data",
+  "report_tasks"
+ ],
+ "fields": [
+  {
+   "fieldname": "entity",
+   "fieldtype": "Data",
+   "label": "Entity"
+  },
+  {
+   "fieldname": "management",
+   "fieldtype": "Data",
+   "label": "Management"
+  },
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Data",
+   "label": "Contractor"
+  },
+  {
+   "fieldname": "report_name",
+   "fieldtype": "Data",
+   "label": "Report Name"
+  },
+  {
+   "fieldname": "contract",
+   "fieldtype": "Data",
+   "label": "Contract"
+  },
+  {
+   "fieldname": "report_no_invoice",
+   "fieldtype": "Int",
+   "label": "Report no (invoice)"
+  },
+  {
+   "fieldname": "report_date",
+   "fieldtype": "Date",
+   "label": "Report Date"
+  },
+  {
+   "fieldname": "responsible_engineer",
+   "fieldtype": "Data",
+   "label": "Responsible Engineer"
+  },
+  {
+   "fieldname": "job_title",
+   "fieldtype": "Data",
+   "label": "Job Title"
+  },
+  {
+   "fieldname": "report_data",
+   "fieldtype": "Link",
+   "label": "Report Data",
+   "options": "reportat_contract_data"
+  },
+  {
+   "fieldname": "report_tasks",
+   "fieldtype": "Link",
+   "label": "Report Tasks",
+   "options": "Reportat_tasks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-28 14:00:14.243332",
+ "modified_by": "eng.monthef@gmail.com",
+ "module": "gsite",
+ "name": "reportat_cover",
+ "owner": "eng.monthef@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

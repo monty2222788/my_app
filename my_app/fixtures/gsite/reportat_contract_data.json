@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-11 12:41:52.999442",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_duration_months",
+  "contract_start_date",
+  "contract_end_date",
+  "actual_start_date",
+  "contract_value_with_tax",
+  "contract_value_without_tax",
+  "current_month_report_without_tax",
+  "monthly_report_with_tax",
+  "monthly_reports_with_tax_contract",
+  "previous_month_reports_without_tax",
+  "cumulative_executed_reports_without_tax",
+  "cumulative_executed_reports_with_tax"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_duration_months",
+   "fieldtype": "Int",
+   "label": "Contract Duration (Months)"
+  },
+  {
+   "fieldname": "contract_start_date",
+   "fieldtype": "Date",
+   "label": "Contract Start Date"
+  },
+  {
+   "fieldname": "contract_end_date",
+   "fieldtype": "Date",
+   "label": "Contract End Date"
+  },
+  {
+   "fieldname": "actual_start_date",
+   "fieldtype": "Date",
+   "label": "Actual Start Date"
+  },
+  {
+   "fieldname": "contract_value_with_tax",
+   "fieldtype": "Float",
+   "label": "Contract Value (With Tax)"
+  },
+  {
+   "fieldname": "contract_value_without_tax",
+   "fieldtype": "Float",
+   "label": "Contract Value (Without Tax)"
+  },
+  {
+   "fieldname": "current_month_report_without_tax",
+   "fieldtype": "Float",
+   "label": "Current Monthly Report (Without Tax)"
+  },
+  {
+   "fieldname": "monthly_report_with_tax",
+   "fieldtype": "Float",
+   "label": "Monthly Report (With Tax)"
+  },
+  {
+   "fieldname": "monthly_reports_with_tax_contract",
+   "fieldtype": "Float",
+   "label": "Monthly Reports During Contract (With Tax)"
+  },
+  {
+   "fieldname": "previous_month_reports_without_tax",
+   "fieldtype": "Float",
+   "label": "Previous Monthly Reports (Without Tax)"
+  },
+  {
+   "fieldname": "cumulative_executed_reports_without_tax",
+   "fieldtype": "Float",
+   "label": "Cumulative Executed Reports (Without Tax)"
+  },
+  {
+   "fieldname": "cumulative_executed_reports_with_tax",
+   "fieldtype": "Float",
+   "label": "Cumulative Executed Reports (With Tax)"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-28 13:59:49.985236",
+ "modified_by": "eng.monthef@gmail.com",
+ "module": "gsite",
+ "name": "reportat_contract_data",
+ "owner": "eng.monthef@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

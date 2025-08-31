@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-13 13:35:04.091074",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "number_of_tasks_for_report_period",
+  "number_of_completed_tasks",
+  "number_of_ongoing_tasks",
+  "task_start_date",
+  "task_duration_days",
+  "number_of_support_items_in_contract",
+  "number_of_actual_support_items",
+  "task_scope_of_work",
+  "tasks"
+ ],
+ "fields": [
+  {
+   "fieldname": "number_of_tasks_for_report_period",
+   "fieldtype": "Int",
+   "label": "Number of Tasks for the Report Period"
+  },
+  {
+   "fieldname": "number_of_completed_tasks",
+   "fieldtype": "Int",
+   "label": "Number of Completed Tasks"
+  },
+  {
+   "fieldname": "number_of_ongoing_tasks",
+   "fieldtype": "Int",
+   "label": "Number of Ongoing Tasks"
+  },
+  {
+   "fieldname": "task_start_date",
+   "fieldtype": "Date",
+   "label": "Task Start Date"
+  },
+  {
+   "fieldname": "task_duration_days",
+   "fieldtype": "Int",
+   "label": "Task Duration (Days)"
+  },
+  {
+   "fieldname": "number_of_support_items_in_contract",
+   "fieldtype": "Int",
+   "label": "Number of Support Items in Contract"
+  },
+  {
+   "fieldname": "number_of_actual_support_items",
+   "fieldtype": "Int",
+   "label": "Number of Actual Support Items"
+  },
+  {
+   "fieldname": "task_scope_of_work",
+   "fieldtype": "Data",
+   "label": "Task Scope of Work"
+  },
+  {
+   "fieldname": "tasks",
+   "fieldtype": "Table",
+   "label": "Tasks",
+   "options": "reportat_one_task"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-28 14:00:54.478479",
+ "modified_by": "eng.monthef@gmail.com",
+ "module": "gsite",
+ "name": "Reportat_tasks",
+ "owner": "eng.monthef@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

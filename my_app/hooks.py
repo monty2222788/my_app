@@ -5,6 +5,17 @@ app_description = "test app"
 app_email = "eng.monthef@gmail.com"
 app_license = "mit"
 
+
+
+
+
+
+
+app_include_fixtures = ["fixtures/gsite/*.json"]
+
+
+
+
 # Apps
 # ------------------
 
